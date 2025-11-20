@@ -53,7 +53,7 @@ public class Member {
     @Column(name = "flag", length = 5)
     private String flag;
 
-    private Member(){}
+    protected Member(){}
 
     private Member(UUID id,
                   String email,

@@ -2,12 +2,11 @@ package com.grammers.shop.member.presentation;
 
 import com.grammers.shop.common.ResponseEntity;
 import com.grammers.shop.member.application.dto.MemberInfo;
-import com.grammers.shop.member.domain.Member;
+import org.springframework.data.domain.Pageable;
 import com.grammers.shop.member.application.MemberService;
 import com.grammers.shop.member.presentation.dto.MemberRequest;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

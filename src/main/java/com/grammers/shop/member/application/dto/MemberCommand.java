@@ -1,6 +1,6 @@
-package com.grammers.shop.member;
+package com.grammers.shop.member.application.dto;
 
-public record MemberRequest(
+public record MemberCommand(
         String email,
         String name,
         String password,

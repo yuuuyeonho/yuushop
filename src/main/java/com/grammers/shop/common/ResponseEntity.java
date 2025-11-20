@@ -1,6 +1,5 @@
 package com.grammers.shop.common;
 
-import com.grammers.shop.member.Member;
 import lombok.Data;
 
 @Data

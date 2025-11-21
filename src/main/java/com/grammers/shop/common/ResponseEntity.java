@@ -1,8 +1,9 @@
 package com.grammers.shop.common;
 
 import lombok.Data;
+import lombok.Getter;
 
-@Data
+@Getter
 public class ResponseEntity<T> {
     private final int status;
     private final T data;
